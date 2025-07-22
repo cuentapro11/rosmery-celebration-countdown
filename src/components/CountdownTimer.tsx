@@ -59,12 +59,6 @@ const CountdownTimer: React.FC = () => {
             ))}
           </div>
           
-          <div className="flex items-center justify-center space-x-2 text-gray-light">
-            <Calendar className="w-5 h-5" />
-            <span className="text-lg">25 de Agosto, 2025</span>
-            <Clock className="w-5 h-5 ml-4" />
-            <span className="text-lg">3:00 PM</span>
-          </div>
         </div>
       </div>
     </section>
