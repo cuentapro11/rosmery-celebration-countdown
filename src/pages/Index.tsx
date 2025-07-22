@@ -1,12 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import HeroSection from '@/components/HeroSection';
+import CountdownTimer from '@/components/CountdownTimer';
+import WaveDivider from '@/components/WaveDivider';
+import CelebrationSection from '@/components/CelebrationSection';
+import MemoryCarousel from '@/components/MemoryCarousel';
+import PartySection from '@/components/PartySection';
+import GiftsSection from '@/components/GiftsSection';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <HeroSection />
+      
+      <WaveDivider />
+      <CountdownTimer />
+      
+      <WaveDivider flip />
+      <CelebrationSection />
+      
+      <WaveDivider />
+      <MemoryCarousel />
+      
+      <WaveDivider flip />
+      <PartySection />
+      
+      <WaveDivider />
+      <GiftsSection />
+      
+      <WaveDivider flip />
+      <Footer />
     </div>
   );
 };
