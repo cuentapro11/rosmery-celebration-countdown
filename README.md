@@ -1,54 +1,59 @@
-# Welcome to your Lovable project
+# Mis XV - Rosmery
 
-## Project info
+Una elegante invitación digital para celebrar los XV años de Rosmery el 25 de Agosto de 2025.
 
-**URL**: https://lovable.dev/projects/05ffc8f6-7ad1-4e6e-bbd6-0b2bc1fa4df5
+## Características
 
-## How can I edit this code?
+- Diseño elegante y minimalista
+- Cuenta regresiva hasta el evento
+- Música de fondo desde YouTube
+- Carrusel de recuerdos
+- Información del evento y ubicación
+- Totalmente responsive
 
-There are several ways of editing your application.
+## Personalización del evento
 
-**Use Lovable**
+Para personalizar la invitación:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/05ffc8f6-7ad1-4e6e-bbd6-0b2bc1fa4df5) and start prompting.
+1. Reemplaza las imágenes en `src/assets/`
+2. Modifica la fecha y hora en `src/components/CountdownTimer.tsx`
+3. Actualiza la información del evento en `src/components/CelebrationSection.tsx`
+4. Cambia el enlace de música en `src/components/MusicWelcomeModal.tsx`
 
-Changes made via Lovable will be committed automatically to this repo.
+## Instalación y desarrollo
 
-**Use your preferred IDE**
+Si quieres trabajar localmente:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Clonar el repositorio
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navegar al directorio
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Instalar dependencias
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Ejecutar en modo desarrollo
 npm run dev
+
+# Construir para producción
+npm run build
+
+# Vista previa de la construcción
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## Despliegue en GitHub Pages
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Método automático (recomendado):
+1. Ve a Settings > Pages en tu repositorio de GitHub
+2. Selecciona "GitHub Actions" como fuente
+3. Los cambios se desplegarán automáticamente
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Método manual:
+1. Ejecuta `npm run build`
+2. Sube el contenido de la carpeta `dist` a la rama `gh-pages`
 
 ## What technologies are used for this project?
 
