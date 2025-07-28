@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "./", // Use relative paths for GitHub Pages
+  base: "/rosmery-celebration-countdown/", // GitHub Pages repository path
   server: {
     host: "::",
     port: 8080,
